@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #F0F2F5;
+    font-family: 'Roboto', sans-serif;
+   
+    overflow-x: hidden;
+    overflow-y: auto;
+   
+    
+  
+}
+
+.container{
+    position: absolute;
+    top: 30%;
+    height: 100vh;
+    left: 14%;
+   
+  
+   
+}
+
+.container h1{
+    color: #2C83F2;
+    font-weight: bolder;
+    font-size: 77px;
+}
+.container p{
+    font-size: 37px;
+}
+
+header{
+    width: 450px;
+    height: 400px;
+    position: absolute;
+    top: 20%;
+    left: 57%;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    
+}
+
+.box input{
+    width:400px;
+    margin: 10px;
+    margin-top: 18px;
+    margin-left: 21px;
+    border: none;
+    padding: 14px;
+    border-color: #1B74E4;
+    outline-color:#1B74E4;
+    font-size: 15px;
+   
+}
+
+
+
+
+.link{
+    width: 81%;
+    text-align: center;
+    background-color: #2C83f2;
+    margin-top: 10px;
+    margin-left: 23px;
+    padding: 12px 0px;
+    border-radius: 7px;
+   
+}
+
+.link a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.link1 {
+    text-align: center;
+    margin-top: 12px;
+   
+   
+}
+.link1:hover{
+    text-decoration: underline;
+    text-decoration-color:#2C83f2;
+}
+
+.link1 a{
+    text-decoration: none;
+    color: #2C83f2;
+    font-size: 21px;
+}
+
+.link2{
+    width: 50%;
+    margin: 23%;
+    text-align: center;
+    margin-top: 40px;
+    background-color: #36A420;
+    padding: 17px;
+    border-radius: 7px;
+}
+
+.link2 a{
+    text-decoration: none;
+    color: white;
+    
+}
+.link4{
+    position: absolute;
+    bottom: -57px;
+    left: 20%;
+}
+.link4 a{
+    color: black;
+    font:800 ;
+    font-size: 15px;
+}
+footer{
+    position:absolute;
+    height: 30vh;
+    bottom: -300px;  
+    width: 100%;
+    background-color: white;
+    color: white;
+    padding: 28px;
+    line-height: 29px;
+   
+}
+.footer-content1{
+    display: flex;
+    position: relative;
+    left: 10%;
+}
+.footer-content2{
+    display: flex;
+    position: relative;
+    left: 10%;
+}
+.footer-content3{
+    display: flex;
+    position: relative;
+    left: 10%;
+}
